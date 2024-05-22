@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.child{
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    transition: all 2s ease-in-out .5s;
+}
+.child1{
+    transform: translate(200px);
+}
+.child1:hover{
+    background-color: red;
+    transform: translate(200px,200px);
+}
+.child2{
+    transform: translate(45deg);
+}
+.child2:hover{
+    background-color:green;
+    transform: rotate(45deg);
+}
+.child3{
+    transform: translate(200px);
+}
+.child3:hover{
+    background-color:green;
+    transform:scale(200px);
+}

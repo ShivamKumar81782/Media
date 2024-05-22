@@ -1,0 +1,16 @@
+.child h1{
+    text-shadow: 5px 5px 0px rgba(234,8,8,0.795);
+    font-weight: 700;
+    font-size: 3em;
+    border: 2px solid black;
+    margin: auto;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    background-image: linear-gradient(lightblue,black);
+    color: white;
+    box-shadow: 12px 12px 0px gray; 
+    /*display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}

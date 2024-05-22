@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 50%;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+}
+.child1{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(45deg,red,white,Blue);
+    border: 1px solid red;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px black;
+    position: absolute;
+    animation-name: Motion;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Motion{
+    0%{
+        left: 0;
+        right: 0;
+    }
+    25%{
+        left: 500px;
+        top: 500px;
+      
+        border-radius: 0%;
+    }
+    50%{
+        top: 400px;
+        bottom: 500px;
+
+        border-radius: 50%;
+    }    
+    75%{
+        top: 350px;
+        left: 0;
+        border-radius: 0%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
